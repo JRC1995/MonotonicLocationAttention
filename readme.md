@@ -16,11 +16,11 @@ Put [them](https://github.com/i-machine-think/machine-tasks/tree/master/SCAN/len
 
 ### Preprocess/Generate
 Go to preprocess/ and run the files (those are also the file to check into if you want to develop on our synthetic data generators).
-We also release the exact splits that we used [here](). 
+We also release the exact splits that we used [here]() (link to be released soon). 
 
 ### Train
 To run code:
-python trian.py --model=[insert model name] -- dataset=[insert dataset name] --times=[insert total runs] --device=[insert device name] --test=[True/False]
+```python trian.py --model=[insert model name] -- dataset=[insert dataset name] --times=[insert total runs] --device=[insert device name] --test=[True/False]```
 (see argparser.py for options). 
 
 ### Mapping task names in code (left) to names in paper (right):
