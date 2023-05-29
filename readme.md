@@ -16,7 +16,7 @@ Put [them](https://github.com/i-machine-think/machine-tasks/tree/master/SCAN/len
 
 ### Preprocess/Generate
 Go to preprocess/ and run the files (those are also the file to check into if you want to develop on our synthetic data generators).
-We also release the exact splits that we used [here]() (link to be released soon). 
+We also release the exact splits that we used [here](https://drive.google.com/file/d/1Ov0tP4GVlIvLNcVdknxosG8WBmAlOmfC/view?usp=sharing). 
 
 ### Train
 ```python trian.py --model=[insert model name] -- dataset=[insert dataset name] --times=[insert total runs] --device=[insert device name] --test=[True/False]```
