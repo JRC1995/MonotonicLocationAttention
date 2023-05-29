@@ -126,7 +126,7 @@ class Multiheaded_GRUMix_Attention(nn.Module):
         return clamped
 
     def softstair(self, x):
-        return T.floor(x) + T.sigmoid(self.softstair_temp * (T.abs(x - T.floor(x)) - 0.5))
+        return T.floor(x) + T.sigmoid(self.softstair_temp * (x - T.floor(x) - 0.5))
 
     def score_positions(self, Q,
                         normed_value_positions,
