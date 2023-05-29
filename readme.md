@@ -19,8 +19,8 @@ Go to preprocess/ and run the files (those are also the file to check into if yo
 We also release the exact splits that we used [here]() (link to be released soon). 
 
 ### Train
-To run code:
 ```python trian.py --model=[insert model name] -- dataset=[insert dataset name] --times=[insert total runs] --device=[insert device name] --test=[True/False]```
+
 (see argparser.py for options). 
 
 ### Mapping task names in code (left) to names in paper (right):
