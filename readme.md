@@ -39,7 +39,7 @@ python trian.py --model=[insert model name] -- dataset=[insert dataset name] --t
 * BiGRU == Content Attention
 * BiGRUrel == Relative Attention
 * BiGRUrel_mixdir == Bi-Relative Attention
-* BiGRUrope_mixdir == Bi-ROPE Attention,
+* BiGRUrope_mixdir == Bi-ROPE Attention
 * BiGRU_locattn_simple == LocAttn S
 * BiGRU_locattn == LocAttn
 * BiGRU_mixattn_simple == Mix LocAttn S
