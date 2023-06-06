@@ -34,6 +34,8 @@ We also release the exact splits that we used [here](https://drive.google.com/fi
 * rpc == Reverse ReCopy
 * fgc == Inv ReCopy
 * rgc == Inv Reverse ReCopy
+* posretrieve == PosRetrieve
+* dedup == DeDupe
 * scan_length = SCAN (length split)
 * cfq_length == CFQ (length split)
  
