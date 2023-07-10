@@ -65,11 +65,20 @@ We also release the exact splits that we used [here](https://drive.google.com/fi
 ### Citation
 
 ```
-@InProceedings{Chowdhury2023monotonic,
+@InProceedings{pmlr-v202-ray-chowdhury23b,
   title = 	 {Monotonic Location Attention for Length Generalization},
   author =       {Ray Chowdhury, Jishnu and Caragea, Cornelia},
   booktitle = 	 {Proceedings of the 40th International Conference on Machine Learning},
-  year = 	 {2023}
+  pages = 	 {28792--28808},
+  year = 	 {2023},
+  editor = 	 {Krause, Andreas and Brunskill, Emma and Cho, Kyunghyun and Engelhardt, Barbara and Sabato, Sivan and Scarlett, Jonathan},
+  volume = 	 {202},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {23--29 Jul},
+  publisher =    {PMLR},
+  pdf = 	 {https://proceedings.mlr.press/v202/ray-chowdhury23b/ray-chowdhury23b.pdf},
+  url = 	 {https://proceedings.mlr.press/v202/ray-chowdhury23b.html},
+  abstract = 	 {We explore different ways to utilize position-based cross-attention in seq2seq networks to enable length generalization in algorithmic tasks. We show that a simple approach of interpolating the original and reversed encoded representations combined with relative attention allows near-perfect length generalization for both forward and reverse lookup tasks or copy tasks that had been generally hard to tackle. We also devise harder diagnostic tasks where the relative distance of the ideal attention position varies with timestep. In such settings, the simple interpolation trick with relative attention is not sufficient. We introduce novel variants of location attention building on top of Dubois et al. (2020) to address the new diagnostic tasks. We also show the benefits of our approaches for length generalization in SCAN (Lake &amp; Baroni, 2018) and CFQ (Keysers et al.,2020). Our code is available on GitHub.}
 }
 ```
 Contact the associated github email for any question or issue. 
